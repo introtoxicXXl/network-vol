@@ -17,7 +17,7 @@ const Navigation = () => {
               <Nav.Link className='me-4 fw-bold text-center' as={Link} to="/donation">Donation</Nav.Link>
               <Nav.Link className='me-4 fw-bold text-center' as={Link} to="/event">Events</Nav.Link>
               <Nav.Link className='me-4 fw-bold text-center' as={Link} to="/blog">Blogs</Nav.Link>
-              <Nav.Link className='me-4 px-4 btn btn-primary text-light mt-lg-0 mt-md-3 mt-sm-2 mt-3' as={Link} to="/register">Register</Nav.Link>
+              <Nav.Link className='me-4 px-4 btn btn-primary text-light mt-lg-0 mt-md-3 mt-sm-2 mt-3'  as={Link} to="/register">Register</Nav.Link>
               <Nav.Link className='me-4 px-4 btn btn-dark text-light mt-lg-0 mt-md-3 mt-sm-2 mt-3' as={Link} to="/admin">Admin</Nav.Link>
             </Nav>
           </Navbar.Collapse>
