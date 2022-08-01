@@ -7,6 +7,7 @@ import Events from './components/Events/Events';
 import Blogs from './components/Blogs/Blogs';
 import Register from './components/Register/Register';
 import Admin from './components/Admin/Admin';
+import SignIn from './components/SignIn/SignIn';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path='/blog' element={<Blogs></Blogs>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/admin' element={<Admin></Admin>}></Route>
+        <Route path='signin'element={<SignIn></SignIn>}></Route>
       </Routes>
     </div>
   );

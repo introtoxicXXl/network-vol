@@ -13,7 +13,7 @@ const Home = () => {
       <div>
         <h2 className='text-center fw-bold mt-5 mb-4'>I grow by helping people in need.</h2>
         <div className="input-group w-25 mb-4 m-auto">
-          <input type="text" className="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2"/>
+          <input type="text" className="form-control" placeholder="Search..." aria-label="Recipient's username" aria-describedby="button-addon2"/>
             <button className="btn btn-primary" type="button" id="button-addon2">Search</button>
         </div>
       </div>

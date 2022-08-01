@@ -1,0 +1,31 @@
+.login {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  width: 570px;
+  height: 457px;
+  border: 1px solid rgba(199, 199, 199, 1);
+}
+
+.google-logo {
+  height: 31px;
+  width: 31px;
+  position: absolute;
+  left: 10px;
+}
+
+.login-btn {
+  border: 1px solid rgba(199, 199, 199, 1);
+  background-color: #ffffff;
+  width: 70%;
+  position: relative;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
